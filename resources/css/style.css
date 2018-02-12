@@ -1,0 +1,442 @@
+header {
+  display: inline-flex;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  background-color: white;
+}
+
+.lion {
+  padding-top: 16px;
+}
+
+.lion-img {
+  display: inline-block;
+  background-image: url(../css/images/lion.png);
+  background-size: contain;
+  height: 32px;
+  width: 32px;
+  background-repeat: no-repeat;
+}
+
+.culmaracademy {
+  padding-top: 24px;
+  display: inline-block;
+  flex-grow: 2;
+}
+
+.academy {
+  display: inline;
+  color: gray;
+}
+
+.on-campus, .online, .for-companies {
+  padding-right: 16px;
+  display: inline-block;
+  padding-top: 24px;
+}
+
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+/*banner*/
+.banner {
+  display: inline-flex;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+.banner .img {
+  display: inline-block;
+  background-image: url(../css/images/banner.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 60%;
+}
+
+.banner-right {
+padding-left: 24px;
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.banner p {
+  color: black;
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 2rem;
+}
+
+#latin {
+  font-size: 1rem;
+}
+.banner-right .button {
+  background-color: darkgray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.button p{
+  font-size: 1rem;
+}
+
+/*Beautiful Chocolate Man*/
+.section2 {
+  display: inline-flex;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 32px;
+}
+
+/*Left Side*/
+.left {
+  display: inline-flex;
+  max-width: 60%;
+  flex-direction: column;
+}
+
+.chocolate-man {
+  display: inline-block;
+  background-image: url(../css/images/information-main.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 32px 24px;
+  height: 370px;
+  min-width: 60%;
+}
+
+.chocolate-man-info {
+  display: inline-block;
+  padding-left: 24px
+}
+
+.practicing {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 32px;
+}
+
+/*Right Side*/
+.right {
+  display: inline-flex;
+  max-width: 40%;
+  padding-top: 32px;
+  flex-direction: column;
+  padding-left: 16px;
+}
+
+.orientation, .our-campus, .guest{
+  display:inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 16px;
+}
+
+.orientation-img {
+  display: inline-block;
+  width: 35%;
+  height: 175px;
+  background-image: url(../css/images/information-orientation.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.orientation-info, .campus-info, .guest-info {
+  display: inline-block;
+  width: 65%;
+  padding-left: 32px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.campus-img {
+  display: inline-block;
+  width: 35%;
+  height: 175px;
+  background-image: url(../css/images/information-campus.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.guest {
+    background-color: lightgray;
+}
+
+.guest-img {
+  display: inline-block;
+  width: 35%;
+  height: 175px;
+  background-image: url(../css/images/information-guest-lecture.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*Start Learning*/
+.start {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.selection {
+  padding-left: 72px;
+  padding-right: 72px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.box {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.software-img {
+  background-image: url(../css/images/course-software.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.computer-img {
+  background-image: url(../css/images/course-computer-art.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.design-img {
+  background-image: url(../css/images/course-design.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data-img {
+  background-image: url(../css/images/course-data.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.business-img {
+  background-image: url(../css/images/course-business.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.marketing-img {
+  background-image: url(../css/images/course-marketing.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-info {
+padding-left: 16px;
+padding-top: 16px;
+padding-right: 16px;
+padding-bottom: 24px;
+}
+
+.degree {
+  font-weight: bold;
+}
+
+.courses {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*Section 3*/
+ .section3 {
+   width: 100%;
+   background-color: white;
+   padding-left: 32px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+
+#thesis-statement {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+.thesis {
+  display: inline-flex;
+  width: 100%;
+}
+
+.thesis-left {
+  display: inline-block;
+  max-width: 60%;
+}
+
+#reimagine {
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.thesis-right {
+  display: inline-flex;
+  max-width: 40%;
+  padding-left: 24px;
+  flex-direction: column;
+}
+
+.fisma {
+  display: inline-flex;
+  width: 100%;
+  padding: 16px;
+  background-color: lightgray;
+}
+
+.fisma-img {
+  display: inline-block;
+  background-image: url(../css/images/thesis-fisma.jpg);
+  width: 35%;
+  height: 100px;
+  background-size: cover;
+  margin-right: 16px;
+}
+
+.now {
+  display: inline-flex;
+  width: 100%;
+  padding: 16px;
+}
+
+.now-img {
+  display: inline-block;
+  background-image: url(../css/images/thesis-fisma.jpg);
+  width: 35%;
+  height: 100px;
+  background-size: cover;
+  margin-right: 16px;
+}
+
+.fisma-caption, .now-caption {
+  padding-top: 30px;
+}
+
+footer {
+  padding: 16px 24px;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.terms {
+  padding-right: 16px;
+}
+
+@media only screen and (max-width:480px) {
+  /*header*/
+  .culmaracademy {
+    display: none;
+  }
+
+  .on-campus {
+    background-image: url(../css/images/desk.png);
+  }
+  .online {
+    background-image: url(../css/images/computer.png);
+  }
+
+  .for-companies {
+    display: none;
+  }
+
+  .sign-in {
+    background-image: url(../css/images/person.png);
+  }
+
+  /*chocolate man*/
+
+  .left {
+    display: none;
+  }
+
+  .orientation-img {
+    background-image: url(../css/images/information-orientation-mobile.jpg);
+  }
+
+  .campus-img {
+    background-image: url(../css/images/information-campus-mobile.jpg)
+  }
+
+  .guest-img {
+    background-image: url(../css/images/information-guest-lecture-mobile.jpg);
+    background-color: white;
+  }
+
+  /*start learning*/
+
+  .selection {
+    background-color: white;
+  }
+
+  .box {
+    background-color: lightgray;
+  }
+
+  .software-img, .computer-img, .design-img, .data-img, .business-img,
+  .marketing-img {
+    background-image: none;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .classes {
+    display: none;
+  }
+
+  /*Thesis Exhibit*/
+
+  .video-caption {
+    display: none;
+  }
+
+  .thesis-right {
+    display: none;
+  }
+
+  /*footer*/
+  .terms, .policy {
+    display: none;
+  }
+}
